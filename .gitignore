@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# MLflow
+mlruns/
+mlflow.db
+
+# Data files (keep structure, ignore large files)
+*.csv
+*.xlsx
+*.xls
+data/raw/*.csv
+data/raw/*.xlsx
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+fix_eda.py
+test_cleanup.py
+
+# Project specific
+Real Estate Investment Advisor*.pdf
