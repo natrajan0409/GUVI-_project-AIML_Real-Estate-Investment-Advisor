@@ -855,7 +855,7 @@ def about_page():
     
     - **Course:** GUVI Data Science Capstone Project
     - **Submission Date:** February 2026
-    - **GitHub Repository:** [Project Repository]
+    - **GitHub Repository:** [git@github.com:natrajan0409/GUVI-_project-AIML_Real-Estate-Investment-Advisor.git]
     
     ---
     
