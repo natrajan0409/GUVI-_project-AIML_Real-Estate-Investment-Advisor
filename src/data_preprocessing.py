@@ -10,8 +10,6 @@ import warnings
 warnings.filterwarnings('ignore')
 
 
-#Test
-
 class RealEstateDataPreprocessor:
     def __init__(self, data_path):
         """Initialize the preprocessor with data path"""
