@@ -297,7 +297,7 @@ Access at: `http://localhost:8501`
 - F1-Score
 - ROC AUC
 
-**Best Model**: [To be updated after training]
+**Best Model**: Logistic Regression (Accuracy: 0.5032)
 
 ---
 
@@ -310,7 +310,7 @@ Access at: `http://localhost:8501`
 - MAE (Mean Absolute Error)
 - R² Score
 
-**Best Model**: [To be updated after training]
+**Best Model**: Linear Regression (R²: 1.0000, RMSE: 0.0000, MAE: 0.0000)
 
 ---
 

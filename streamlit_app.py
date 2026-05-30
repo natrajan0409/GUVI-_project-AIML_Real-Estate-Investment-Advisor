@@ -768,25 +768,22 @@ def about_page():
     - Gradient Boosting Regressor
     - Ridge Regression
     
-    ### 📈 Project Highlights
+    ### 📌 Latest Training Results
+
+    - **Best Classification Model:** Logistic Regression
+      - Accuracy: 0.5032
+      - Precision: 0.5032
+      - Recall: 0.5115
+      - F1-Score: 0.5073
+      - ROC AUC: 0.5024
+
+    - **Best Regression Model:** Linear Regression
+      - R² Score: 1.0000
+      - RMSE: 0.0000
+      - MAE: 0.0000
+
+    > Note: The regression results are currently a perfect fit and should be reviewed for potential target/feature leakage.
     
-    - ✅ **20 EDA Questions** answered with visualizations
-    - ✅ **13 ML Models** trained and compared
-    - ✅ **MLflow Integration** for experiment tracking
-    - ✅ **5-Page Web Application** with interactive features
-    - ✅ **Comprehensive Documentation** and code quality
-    
-    ---
-    """)
-    
-    # Creator Information
-    st.markdown('<div class="sub-header">👨‍💻 About the Creator</div>', unsafe_allow_html=True)
-    
-    col1, col2 = st.columns([1, 3])
-    
-    with col1:
-        st.image("https://cdn-icons-png.flaticon.com/512/3135/3135715.png", width=150)
-        st.markdown("### K. Natrajan")
         st.caption("Lead Automation Engineer")
         st.markdown("[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/)")
     
